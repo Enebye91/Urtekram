@@ -1,0 +1,38 @@
+/**
+* fil css/landingpage.class
+**/
+
+:root {
+  --gul: #decc59;
+  --Beige: #e2e3cf;
+  --sort: #000000;
+}
+
+.wrap{
+  margin:0;
+  display:grid;
+  grid-template-columns: 100vw;
+  grid-template-areas: :
+  "nav"
+  "tobilleder"
+  "kogebog"
+  "Cardflex"
+  "Footer";
+}
+
+ul.menu{
+  display: none;
+}
+
+.navbar{
+  background-color: rgb(0,0,0);
+  position: sticky;
+  top:0;
+  grid-area: nav;
+  display: grid;
+  grid-template-areas:
+  "burger logo ikoner";
+  grid-template-columns: 2em (100% - 2em -5em) 5em;
+  margin: 0em 0.2em 0em 0.2em;
+  z-index:1000; 
+}
