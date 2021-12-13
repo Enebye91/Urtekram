@@ -1,65 +1,52 @@
-/**
-* fil css/landingpage.class
-**/
 
-:root {
-  --gul: #decc59;
-  --Beige: #e2e3cf;
-  --sort: #000000;
+.wrap {
+  background: #e2e3cf;
+  font-family: Ubuntu-Regular;
+  margin: 0;
+  padding: 0;
 }
 
-.wrap{
-  margin:0;
-  display:grid;
-  grid-template-columns: 100vw;
-  grid-template-areas: :
-  "nav"
-  "tobilleder"
-  "kogebog"
-  "Cardflex"
-  "Footer";
+.blaa {
+  background: #0d2954;
+  padding: 15px;
 }
 
-ul.menu{
-  display: none;
+.Emballgae {
+
 }
 
-.navbar{
-  background-color: rgb(0,0,0);
-  position: sticky;
-  top:0;
-  grid-area: nav;
-  display: grid;
-  grid-template-areas:
-  "burger logo ikoner";
-  grid-template-columns: 2em (100% - 2em -5em) 5em;
-  margin: 0em 0.2em 0em 0.2em;
-  z-index:1000;
+.ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.burger {
-  color: var(--gul);
-  border:none;
-  display: block;
-  cursor:pointer;
-  position: absolute;
-  margin-top: 0.3em;
+li {
+  display: line-block;
+  margin: 0px 20px 0 0;
 }
 
-.dropdownnav{
-  font-size: 2em;
-  margin: 0.2em;
-  color: var(--beige);
-}
 
-.navibar{
-  display:none;
+
+.livretter {
+  background-color: grey;
+  color:black;
+  padding:30px;
+  height:50px;
+  display:flex;
   flex-direction: column;
-  margin: 0em 0em 0em 0em;
-  background-color: #82171e;
-  border: 1px solid black;
-  height: auto;
-  width: 98vw;
-  box-shadow: 0px 8px 16px rgb(0, 0, 0.5);
-  z-index: 2;
+}
+
+.livretter div {
+  background: white;
+  margin: auto;
+  width: 100px;
+}
+
+.top{
+  background: black;
+}
+
+.footer {
+  background: black;
 }
