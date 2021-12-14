@@ -1,18 +1,361 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+
+  /* farver */
+  --beige: #e2e3cf;
+
+  /* fonte */
+--font: 'Ubuntu', sans-serif;
+ }
+
 .wrap {
-  background: #e2e3cf;
-  font-family: Ubuntu-Regular;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  ""
+  background: black;
+}
+
+header {
+  background: black;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: var(--font);
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.dropbtn {
+  position: absolute;
+  top: 2vw;
+  left: 15%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown {
+  position: absolute;
+  left: 15%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 1vw;
+  background-color: white;
+  width: 13vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #e2e3cf;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown:hover .dropbtn {color: black;}
+
+.dropbtn2 {
+  position: absolute;
+  top: 2vw;
+  left: 27%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown2 {
+  position: absolute;
+  left: 27%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown2:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {color: black;}
+
+.dropbtn3 {
+  position: absolute;
+  top: 2vw;
+  left: 37%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown3 {
+  position: absolute;
+  left: 37%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown3:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown3:hover .dropbtn3 {color: black;}
+
+.dropbtn4 {
+  position: absolute;
+  top: 2vw;
+  left: 47%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown4 {
+  position: absolute;
+  left: 47%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown4:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown4:hover .dropbtn4 {color: black;}
+
+.dropbtn5 {
+  position: absolute;
+  top: 2vw;
+  left: 57%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown5 {
+  position: absolute;
+  left:57%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown5:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown5:hover .dropbtn5 {color: black;}
+
+.dropbtn6 {
+  position: absolute;
+  top: 2vw;
+  left: 72%;
+  color: white;
+  font-size: 1.8vw;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.dropdown6 {
+  position: absolute;
+  left: 72%;
+  display: inline-block;
+    z-index: 2;
+}
+
+.dropdown6:hover .dropdown-content {
+  position: fixed;
+  top: 3.2vw;
+  display: block;
+}
+
+.dropdown6:hover .dropbtn5 {color: black;}
+
+#logotop {
+  width: 10vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#hvid {
+  background-color: #e2e3cf;
+  top: 20vw;
+  width: 120%;
+  height: 200vw;
+  position: absolute;
+}
+
+#blaa {
+  background-color: #0d2954;
+  top: 30vw;
+  width: 80%;
+  left: 5vw;
+  height: 50vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#Mockup {
+  width: 42vw;
+  position: absolute;
+  top:40vw;
+  left: 18vw;
+  z-index: 2;
+}
+
+
+
+.Minbog {
+  width: 60vw;
+  position: absolute;
+  background: white;
+  left: 5vw;
+  top: 100vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 7vw;
 
 }
 
-.blaa {
-  background: #0d2954;
-  padding: 15px;
+#Kogebog {
+  width:19vw;
+  position: absolute;
+  left:50vw;
+  z-index: 2;
+}
+
+
+#nyt {
+  width: 20vw;
+    z-index: 2;
+}
+
+#mine {
+  position: absolute;
+  width:20vw;
+  left:70vw;
+  top:0vw;
+  z-index: 2;
+}
+
+#laks {
+  position: absolute;
+  width:20vw;
+  top:180vw;
+  left:10vw;
+    z-index: 2;
+}
+
+#alfredo {
+  position: absolute;
+  width:20vw;
+  left:45vw;
+  top:180vw;
+    z-index: 2;
+}
+
+#pastalaks {
+  position: absolute;
+  width:20vw;
+  top:180vw;
+  left:75vw;
+    z-index: 2;
+}
+
+#teasertekst2 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 195vw;
+  left: 10vw;
+  z-index: 5;
+}
+
+#her {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 199vw;
+  left:10vw;
+}
+
+#her:hover {
+  transform: scale(1.1);
+
+}
+
+#teasertekst1 {
+    position: absolute;
+    font-family: var(--font);
+    color: black;
+    top: 195vw;
+    left: 50vw;
+    z-index: 5;
+}
+
+
+
+#logobund {
+  position: absolute;
+  margin-top: 25vw;
+  width: 150px;
+  top: -40vw;
+  z-index: 2;
+}
+
+#facebook {
+  position: absolute;
+  width: 10vw;
+  left:80vw;
+    z-index: 2;
+}
+
+#instagram {
+  position: absolute;
+  width: 10vw;
+  left: 90vw;
+    z-index: 2;
 }
 
 .Emballgae {
@@ -26,10 +369,14 @@
 }
 
 li {
-  display: line-block;
+  display: inline;
   margin: 0px 20px 0 0;
+    font-family: var(--font);
 }
 
+#para {
+
+}
 
 
 .livretter {
@@ -39,12 +386,14 @@ li {
   height:50px;
   display:flex;
   flex-direction: column;
+    z-index: 2;
 }
 
 .livretter div {
   background: white;
   margin: auto;
   width: 100px;
+    z-index: 2;
 }
 
 .top{
@@ -52,7 +401,30 @@ li {
 }
 
 .footer {
+  position: absolute;
+  top: 240vw;
   background: black;
   font-size: 20px;
-  f
+}
+
+#links {
+  position:absolute;
+  font-family: var(--font);
+  color: #decc59;
+  top: -15vw;
+  left: 80vw;
+  z-index: 5;
+
+}
+
+#kontakt {
+  position: absolute;
+  font-family: var(--font);
+  color: #decc59;
+  left:40vw;
+  top: -15vw;
+}
+
+h2 {
+    font-family: var(--font);
 }
