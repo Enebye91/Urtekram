@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 
 :root {
 
@@ -8,7 +8,7 @@
 
   /* fonte */
 --font: 'Ubuntu', sans-serif;
- }
+
 
 .wrap {
   background: black;
@@ -218,246 +218,206 @@ display: block;
   z-index: 2;
 }
 
-#hvid {
-  background-color: #e2e3cf;
-  top: 20vw;
-  width: 100%;
-  height: 200vw;
-  position: absolute;
-}
-
-#blaa {
-  background-color: #0d2954;
-  top: 30vw;
-  width: 80%;
-  left: 5vw;
-  height: 50vw;
-  position: absolute;
-  z-index: 1;
-}
-
-#Mockup {
-  width: 55vw;
-  position: absolute;
-  top:40vw;
-  left: 15vw;
-  z-index: 2;
-}
-
-
-
-.Minbog {
-  width: 65vw;
-  position: absolute;
-  background: white;
-  left: 5vw;
-  top: 100vw;
-  padding-left: 8vw;
-  padding-right: 5vw;
-  padding-bottom: 12vw;
-
-}
-
-#Kogebog {
-  width:20vw;
-  position: absolute;
-  left:50vw;
-  z-index: 2;
-}
-
-
-#para {
-font-family: var(--font);
-}
-
-#nyt {
-  width: 20vw;
-    z-index: 2;
-}
-
 #mine {
   position: absolute;
   width:20vw;
-  left:70vw;
+  left:72vw;
   top:0vw;
   z-index: 2;
 }
 
-#laks {
-  position: absolute;
-  width:25vw;
-  top:180vw;
-  left:10vw;
-    z-index: 2;
-}
-
-#alfredo {
-  position: absolute;
-  width:25vw;
-  left:45vw;
-  top:180vw;
-    z-index: 2;
-}
-
-#pastalaks {
-  position: absolute;
-  width:25vw;
-  top:180vw;
-  left:75vw;
-    z-index: 2;
-}
-
-#teasertekst2 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 200vw;
-  left: 10vw;
-  z-index: 5;
-}
 
 
-#her {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 203vw;
-  left:10vw;
-}
-
-#her:hover {
+#mine:hover {
   transform: scale(1.1);
 }
 
+#hvid {
+  background-color: #e2e3cf;
+  top: 20vw;
+  width: 100%;
+  height: 135vw;
+  position: absolute;
+}
 
 
+#velkommen {
+  background-color: white;
+  top: 20vw;
+  width: 100%;
+  height: 20vw;
+  position: absolute;
+  z-index: 1;
+}
 
-#teasertekst1 {
+#hilsen {
+  position: absolute;
+  font-family: var(--font);
+  left: 5vw;
+}
+
+#din {
+  position: absolute;
+  font-family: var(--font);
+  top:7vw;
+  left: 5vw;
+}
+
+#familiens {
+    background-color: white;
+    top: 50vw;
+    width: 45%;
+    height: 40vw;
+    left:3vw;
     position: absolute;
-    font-family: var(--font);
-    color: black;
-    top: 200vw;
-    left: 45vw;
-    z-index: 5;
+    z-index: 1;
 }
 
-#her1 {
+#FL {
   position: absolute;
   font-family: var(--font);
-  color: black;
-  top: 203vw;
-  left:45vw;
+  font-size:200%;
+  top:14vw;
+  left: 5vw;
 }
 
-#her1:hover {
+#FL:hover {
   transform: scale(1.1);
 }
 
-#teasertekst3 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 200vw;
-  left: 75vw;
-  z-index: 5;
+#hverdag {
+    background-color: white;
+    top: 50vw;
+    width: 45%;
+    height: 40vw;
+    left:52vw;
+    position: absolute;
+    z-index: 1;
 }
 
-#her3 {
+#HV {
   position: absolute;
   font-family: var(--font);
-  color: black;
-  top: 203vw;
-  left:75vw;
+  font-size:200%;
+  top:14vw;
+  left: 8vw;
 }
 
-#her3:hover {
+#HV:hover {
   transform: scale(1.1);
 }
 
-
-
-#logobund {
-  position: absolute;
-  margin-top: 25vw;
-  width: 150px;
-  top: -40vw;
-  z-index: 2;
+#Gaeste {
+    background-color: white;
+    top: 95vw;
+    width: 45%;
+    height: 40vw;
+    left:3vw;
+    position: absolute;
+    z-index: 1;
 }
 
-#facebook {
-  position: absolute;
-  width: 10vw;
-  left:80vw;
-    z-index: 2;
-}
-
-#instagram {
-  position: absolute;
-  width: 10vw;
-  left: 90vw;
-    z-index: 2;
-}
-
-
-.ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-  margin: 0px 20px 0 0;
-    font-family: var(--font);
-}
-
-
-.livretter {
-  background-color: grey;
-  color:black;
-  padding:30px;
-  height:50px;
-  display:flex;
-  flex-direction: column;
-    z-index: 2;
-}
-
-.livretter div {
-  background: white;
-  margin: auto;
-  width: 100px;
-    z-index: 2;
-}
-
-.top{
-  background: black;
-}
-
-.footer {
-  position: absolute;
-  top: 240vw;
-  background: black;
-  font-size: 20px;
-}
-
-#links {
-  position:absolute;
-  font-family: var(--font);
-  color: #decc59;
-  top: -15vw;
-  left: 80vw;
-  z-index: 5;
-
-}
-
-#kontakt {
+#GM {
   position: absolute;
   font-family: var(--font);
-  color: #decc59;
-  left:40vw;
-  top: -15vw;
+  font-size:200%;
+  top:14vw;
+  left: 10vw;
 }
 
-h2 {
-    font-family: var(--font);
-}
+#GM:hover {
+  transform: scale(1.1);
+   }
+
+#Online {
+       background-color: white;
+       top: 95vw;
+       width: 45%;
+       height: 40vw;
+       left:52vw;
+       position: absolute;
+       z-index: 1;
+   }
+
+#video {
+     position: absolute;
+     font-family: var(--font);
+     font-size:200%;
+     top:14vw;
+     left: 8vw;
+   }
+
+#video:hover {
+     transform: scale(1.1);
+      }
+
+      #logobund {
+        position: absolute;
+        margin-top: 25vw;
+        width: 150px;
+        top: -40vw;
+        z-index: 2;
+      }
+
+      #facebook {
+        position: absolute;
+        width: 10vw;
+        left:72vw;
+          z-index: 2;
+      }
+
+      #instagram {
+        position: absolute;
+        width: 10vw;
+        left: 83vw;
+          z-index: 2;
+      }
+
+
+      .ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      li {
+        display: inline;
+        margin: 0px 20px 0 0;
+          font-family: var(--font);
+      }
+
+
+
+
+      .top{
+        background: black;
+      }
+
+      .footer {
+        position: absolute;
+        top: 172vw;
+        background: black;
+        font-size: 20px;
+      }
+
+      #links {
+        position:absolute;
+        font-family: var(--font);
+        color: #decc59;
+        top: -15vw;
+        left: 72vw;
+        z-index: 5;
+
+      }
+
+      #kontakt {
+        position: absolute;
+        font-family: var(--font);
+        color: #decc59;
+        left:40vw;
+        top: -15vw;
+      }
+
+      h2 {
+          font-family: var(--font);
+      }
