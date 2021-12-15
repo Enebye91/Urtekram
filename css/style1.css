@@ -227,7 +227,6 @@ display: block;
 }
 
 
-
 #mine:hover {
   transform: scale(1.1);
 }
@@ -416,8 +415,4 @@ display: block;
         color: #decc59;
         left:40vw;
         top: -15vw;
-      }
-
-      h2 {
-          font-family: var(--font);
       }
