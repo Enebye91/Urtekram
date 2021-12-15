@@ -227,7 +227,7 @@ display: block;
 }
 
 
-#velkommen {
+# {
   width: 100vw;
   position: absolute;
   background: white;
@@ -235,104 +235,63 @@ display: block;
   padding-bottom: 20vw;
 }
 
-.personlig {
-  position: absolute;
-  top:1.5vw;
-  left:5vw;
-
-}
-
-.hilsen {
-  position: absolute;
-  font-family: var(--font);
-}
 
 .din {
   position: absolute;
   font-family: var(--font);
 }
 
-#familiens {
+#Overskrift {
+  width: 100vw;
   position: absolute;
-  background-color: white;
-  top: 45vw;
-  width: 45%;
-  height:40vw;
-  left: 5vw;
-  z-index: 1;
+  background: white;
+  top:20vw;
+  padding-bottom: 15vw;
 }
 
-#FL {
-position: absolute;
-font-family: var(--font);
-left:10vw;
-top:12vw;
-}
-
-#FL:hover {
-  transform: scale(1.1);
-}
-
-#hverdag {
+.personlig {
   position: absolute;
-  background-color: white;
-  top: 45vw;
-  width: 45%;
-  height:40vw;
-  left: 55vw;
-  z-index: 1;
+  top:1.5vw;
+  left:5vw;
 }
 
-#HV {
-position: absolute;
-font-family: var(--font);
-left:11vw;
-top:12vw;
-}
-
-#HV:hover {
-  transform: scale(1.1);
-}
-
-#Gaeste {
+#hilsen {
   position: absolute;
-  background-color: white;
-  top: 90vw;
-  width: 45%;
-  height:40vw;
-  left: 5vw;
-  z-index: 1;
+  font-family: var(--font);
+  font-size: 3vw;
 }
 
-#GM {
-position: absolute;
-font-family: var(--font);
-left:11vw;
-top:12vw;
-}
 
-#GM:hover {
-  transform: scale(1.1);
-}
 
-#Online {
+
+
+#alfredo {
   position: absolute;
-  background-color: white;
-  top: 90vw;
-  width: 45%;
-  height:40vw;
-  left: 55vw;
-  z-index: 1;
+  width:75vw;
+  left:20vw;
+  top:45vw;
+    z-index: 2;
 }
 
-#video {
-position: absolute;
-font-family: var(--font);
-left:11vw;
-top:12vw;
+
+#teasertekst1 {
+    position: absolute;
+    font-family: var(--font);
+    color: black;
+    top: 115vw;
+    left: 20vw;
+    z-index: 5;
 }
 
-#video:hover {
+#her1 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 203vw;
+  left:45vw;
+}
+
+#her1:hover {
   transform: scale(1.1);
 }
 
