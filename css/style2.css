@@ -227,17 +227,45 @@ display: block;
 }
 
 
-#velkommen 
+#velkommen {
+  width: 100vw;
+  position: absolute;
+  background: white;
+  top:20vw;
+  padding-bottom: 20vw;
+}
 
 .personlig {
+  position: absolute;
+  top:1.5vw;
+  left:5vw;
 
 }
+
+.hilsen {
+  position: absolute;
+  font-family: var(--font);
+}
+
+.din {
+  position: absolute;
+  font-family: var(--font);
+}
+
+.familiens {
+  position: absolute;
+  background-color: white;
+  top: 30vw;
+  width: 50%;
+  left: 10vw;
+  z-index: 5;
+} 
 
 #hvid {
   background-color: #e2e3cf;
   top: 20vw;
   width: 102%;
-  height: 200vw;
+  height: 150vw;
   position: absolute;
 }
 
@@ -285,7 +313,7 @@ li {
 
 .footer {
   position: absolute;
-  top: 240vw;
+  top: 195vw;
   background: black;
   font-size: 20px;
 }
