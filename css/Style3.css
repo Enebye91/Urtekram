@@ -228,13 +228,10 @@ display: block;
 }
 
 
-# {
-  width: 100vw;
-  position: absolute;
-  background: white;
-  top:20vw;
-  padding-bottom: 20vw;
+#mine:hover {
+  transform: scale(1.1);
 }
+
 
 
 .din {
@@ -248,6 +245,7 @@ display: block;
   background: white;
   top:20vw;
   padding-bottom: 15vw;
+  z-index: 5;
 }
 
 .personlig {
@@ -284,15 +282,8 @@ display: block;
     z-index: 5;
 }
 
-#her1 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 203vw;
-  left:45vw;
-}
 
-#her1:hover {
+#teasertekst1:hover {
   transform: scale(1.1);
 }
 
