@@ -239,10 +239,9 @@ display: block;
   position: absolute;
   top:1.5vw;
   left:5vw;
-
 }
 
-.hilsen {
+#hilsen {
   position: absolute;
   font-family: var(--font);
 }
