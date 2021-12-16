@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
@@ -12,6 +11,7 @@
 
 .wrap {
   background: black;
+  width: 100vw;
 }
 
 header {
@@ -35,7 +35,7 @@ a:hover {
 
 .dropbtn {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 15%;
   color: white;
   font-size: 1.8vw;
@@ -74,7 +74,7 @@ display: block;
 
 .dropdown:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -82,7 +82,7 @@ display: block;
 
 .dropbtn2 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 27%;
   color: white;
   font-size: 1.8vw;
@@ -100,7 +100,7 @@ display: block;
 
 .dropdown2:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -108,7 +108,7 @@ display: block;
 
 .dropbtn3 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 37%;
   color: white;
   font-size: 1.8vw;
@@ -126,7 +126,7 @@ display: block;
 
 .dropdown3:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -134,7 +134,7 @@ display: block;
 
 .dropbtn4 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 47%;
   color: white;
   font-size: 1.8vw;
@@ -152,7 +152,7 @@ display: block;
 
 .dropdown4:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -160,7 +160,7 @@ display: block;
 
 .dropbtn5 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 57%;
   color: white;
   font-size: 1.8vw;
@@ -178,7 +178,7 @@ display: block;
 
 .dropdown5:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -186,7 +186,7 @@ display: block;
 
 .dropbtn6 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 72%;
   color: white;
   font-size: 1.8vw;
@@ -204,224 +204,11 @@ display: block;
 
 .dropdown6:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 7vw;
   display: block;
 }
 
 .dropdown6:hover .dropbtn5 {color: #decc59;}
-
-#logotop {
-  width: 10vw;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-}
-
-#hvid {
-  background-color: #e2e3cf;
-  top: 20vw;
-  width: 102%;
-  height: 200vw;
-  position: absolute;
-}
-
-#blaa {
-  background-color: #0d2954;
-  top: 30vw;
-  width: 80%;
-  left: 5vw;
-  height: 50vw;
-  position: absolute;
-  z-index: 1;
-}
-
-#Mockup {
-  width: 55vw;
-  position: absolute;
-  top:40vw;
-  left: 15vw;
-  z-index: 2;
-}
-
-#Fettuccine {
-  position: absolute;
-  width: 55vw;
-  left:15vw;
-  background-color: white;
-  z-index: 2;
-  top:95vw;
-}
-
-
-#em {
-  position: absolute;
-  left:1vw;
-  top:0.5vw;
-  font-family: var(--font);
-  font-size: 2vw;
-}
-
-#overraskelse {
-  position: absolute;
-  left:1vw;
-  font-family: var(--font);
-  font-size: 2vw;
-  top:2.5vw;
-}
-
-.Minbog {
-  width: 65vw;
-  position: absolute;
-  background: white;
-  left: 5vw;
-  top: 110vw;
-  padding-left: 8vw;
-  padding-right: 5vw;
-  padding-bottom: 12vw;
-
-}
-
-#Kogebog {
-  width:20vw;
-  position: absolute;
-  left:50vw;
-  z-index: 2;
-}
-
-
-#para {
-font-family: var(--font);
-}
-
-#nyt {
-  width: 20vw;
-    z-index: 2;
-}
-
-#mine {
-  position: absolute;
-  width:20vw;
-  left:72vw;
-  top:0vw;
-  z-index: 2;
-}
-
-#laks {
-  position: absolute;
-  width:25vw;
-  top:180vw;
-  left:10vw;
-    z-index: 2;
-}
-
-#alfredo {
-  position: absolute;
-  width:25vw;
-  left:45vw;
-  top:180vw;
-    z-index: 2;
-}
-
-#pastalaks {
-  position: absolute;
-  width:25vw;
-  top:180vw;
-  left:75vw;
-    z-index: 2;
-}
-
-#teasertekst2 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 200vw;
-  left: 10vw;
-  z-index: 5;
-}
-
-
-#her {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 204vw;
-  left:10vw;
-}
-
-#her:hover {
-  transform: scale(1.1);
-}
-
-
-
-
-#teasertekst1 {
-    position: absolute;
-    font-family: var(--font);
-    color: black;
-    top: 200vw;
-    left: 45vw;
-    z-index: 5;
-}
-
-#her1 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 206vw;
-  left:45vw;
-}
-
-#her1:hover {
-  transform: scale(1.1);
-}
-
-#teasertekst3 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 200vw;
-  left: 75vw;
-  z-index: 5;
-}
-
-#her3 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 204vw;
-  left:75vw;
-}
-
-#her3:hover {
-  transform: scale(1.1);
-}
-
-
-
-#logobund {
-  position: absolute;
-  margin-top: 25vw;
-  width: 150px;
-  top: -40vw;
-  z-index: 2;
-}
-
-#facebook {
-  position: absolute;
-  width: 10vw;
-  left:80vw;
-    z-index: 2;
-}
-
-#instagram {
-  position: absolute;
-  width: 10vw;
-  left: 90vw;
-    z-index: 2;
-}
-
 
 .ul {
   margin: 0;
@@ -436,39 +223,215 @@ li {
 }
 
 
-.livretter {
-  background-color: grey;
-  color:black;
-  padding:30px;
-  height:50px;
-  display:flex;
-  flex-direction: column;
-    z-index: 2;
+
+#logotop {
+  width: 10vw;
+  position: absolute;
+  left: 2;
+  top: 1;
+  z-index: 2;
 }
 
-.livretter div {
-  background: white;
-  margin: auto;
-  width: 100px;
-    z-index: 2;
+#mine {
+  position: absolute;
+  width:20vw;
+  left:75vw;
+  top:1vw;
+  z-index: 2;
 }
 
 .top{
   background: black;
 }
 
+#hvid {
+  background-color: #e2e3cf;
+  top: 18vw;
+  width: 120%;
+  height: 190vw;
+  position: absolute;
+}
+
+#mockup {
+  position: absolute;
+  width:45vw;
+  left:5vw;
+  top:25vw;
+  z-index: 2;
+}
+
+#Mockupb {
+  position: absolute;
+  width:45vw;
+  left:35vw;
+  top:25vw;
+}
+
+#om {
+  background-color: white;
+  top: 75vw;
+  width: 107%;
+  left: 5vw;
+  height: 35vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#ingrediens {
+   position: absolute;
+   font-family: var(--font);
+   font-size: 3vw;
+   top:0.5vw;
+   left:3vw;
+}
+
+#Fettuccine  {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  top:5.5vw;
+  left:3vw;
+  right:2vw;
+}
+
+#stoeber  {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  top:11vw;
+  left:3vw;
+  right:2vw;
+}
+
+#struktur  {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  top:14vw;
+  left:3vw;
+}
+
+#selve  {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  top:20vw;
+  left:3vw;
+}
+
+
+#aftensmad {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  top:120vw;
+  left:6vw;
+}
+
+
+#alfredo {
+  position: absolute;
+  width:45vw;
+  top:130vw;
+  left:6vw;
+}
+
+
+#pastalaks {
+  position: absolute;
+  width:50vw;
+  top:130vw;
+  left:60vw;
+}
+
+#teasertekst1 {
+    position: absolute;
+    font-family: var(--font);
+    font-size: 2.5vw;
+    color: black;
+    top: 169vw;
+    left: 6vw;
+    z-index: 5;
+}
+
+#her1 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: black;
+  top: 175vw;
+  left:6vw;
+}
+
+#her1:hover {
+  transform: scale(1.1);
+}
+
+#teasertekst3 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  color: black;
+  top: 169vw;
+  left: 60vw;
+  z-index: 5;
+}
+
+#her3 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: black;
+  top: 175vw;
+  left:60vw;
+}
+
+#her3:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+#logobund {
+  position: absolute;
+  margin-top: 25vw;
+  width: 125px;
+  top: -25vw;
+  left:2vw;
+  z-index: 2;
+}
+
+
+#facebook {
+  position: absolute;
+  width: 8vw;
+  left:80vw;
+    z-index: 2;
+    top:8vw;
+}
+
+#instagram {
+  position: absolute;
+  width: 8vw;
+  left: 90vw;
+    z-index: 2;
+    top:8vw;
+}
+
+
 .footer {
   position: absolute;
-  top: 240vw;
+  top: 210vw;
   background: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #links {
   position:absolute;
   font-family: var(--font);
   color: #decc59;
-  top: -15vw;
+  top: -2vw;
   left: 80vw;
   z-index: 5;
 
@@ -479,9 +442,5 @@ li {
   font-family: var(--font);
   color: #decc59;
   left:40vw;
-  top: -15vw;
-}
-
-h2 {
-    font-family: var(--font);
+  top: -2vw;
 }
