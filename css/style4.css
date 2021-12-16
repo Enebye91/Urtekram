@@ -11,6 +11,7 @@
 
 .wrap {
   background: black;
+  width: 100vw;
 }
 
 header {
@@ -34,7 +35,7 @@ a:hover {
 
 .dropbtn {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 15%;
   color: white;
   font-size: 1.8vw;
@@ -73,7 +74,7 @@ display: block;
 
 .dropdown:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -81,7 +82,7 @@ display: block;
 
 .dropbtn2 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 27%;
   color: white;
   font-size: 1.8vw;
@@ -99,7 +100,7 @@ display: block;
 
 .dropdown2:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -107,7 +108,7 @@ display: block;
 
 .dropbtn3 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 37%;
   color: white;
   font-size: 1.8vw;
@@ -125,7 +126,7 @@ display: block;
 
 .dropdown3:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -133,7 +134,7 @@ display: block;
 
 .dropbtn4 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 47%;
   color: white;
   font-size: 1.8vw;
@@ -151,7 +152,7 @@ display: block;
 
 .dropdown4:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -159,7 +160,7 @@ display: block;
 
 .dropbtn5 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 57%;
   color: white;
   font-size: 1.8vw;
@@ -177,7 +178,7 @@ display: block;
 
 .dropdown5:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 6vw;
   display: block;
 }
 
@@ -185,7 +186,7 @@ display: block;
 
 .dropbtn6 {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   left: 72%;
   color: white;
   font-size: 1.8vw;
@@ -203,130 +204,11 @@ display: block;
 
 .dropdown6:hover .dropdown-content {
   position: fixed;
-  top: 3.2vw;
+  top: 7vw;
   display: block;
 }
 
 .dropdown6:hover .dropbtn5 {color: #decc59;}
-
-
-#logotop {
-  width: 10vw;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-}
-
-#mine {
-  position: absolute;
-  width:20vw;
-  left:75vw;
-  top:0vw;
-  z-index: 2;
-}
-
-
-# {
-  width: 100vw;
-  position: absolute;
-  background: white;
-  top:20vw;
-  padding-bottom: 20vw;
-}
-
-
-.din {
-  position: absolute;
-  font-family: var(--font);
-}
-
-#Overskrift {
-  width: 100vw;
-  position: absolute;
-  background: white;
-  top:20vw;
-  padding-bottom: 15vw;
-}
-
-.personlig {
-  position: absolute;
-  top:1.5vw;
-  left:5vw;
-}
-
-#hilsen {
-  position: absolute;
-  font-family: var(--font);
-  font-size: 3vw;
-  width: 100vw;
-}
-
-
-#alfredo {
-  position: absolute;
-  width:75vw;
-  left:15vw;
-  top:45vw;
-    z-index: 2;
-}
-
-
-
-#teasertekst1 {
-    position: absolute;
-    font-family: var(--font);
-    font-size: 3vw;
-    color: black;
-    top: 112vw;
-    left: 15vw;
-    z-index: 5;
-}
-
-#her1 {
-  position: absolute;
-  font-family: var(--font);
-  color: black;
-  top: 203vw;
-  left:45vw;
-}
-
-#her1:hover {
-  transform: scale(1.1);
-}
-
-
-#hvid {
-  background-color: #e2e3cf;
-  top: 20vw;
-  width: 102%;
-  height: 130vw;
-  position: absolute;
-}
-
-#logobund {
-  position: absolute;
-  margin-top: 25vw;
-  width: 150px;
-  top: -40vw;
-  z-index: 2;
-}
-
-
-#facebook {
-  position: absolute;
-  width: 10vw;
-  left:80vw;
-    z-index: 2;
-}
-
-#instagram {
-  position: absolute;
-  width: 10vw;
-  left: 90vw;
-    z-index: 2;
-}
-
 
 .ul {
   margin: 0;
@@ -342,22 +224,318 @@ li {
 
 
 
+#logotop {
+  width: 10vw;
+  position: absolute;
+  left: 2;
+  top: 1;
+  z-index: 2;
+}
+
+#mine {
+  position: absolute;
+  width:20vw;
+  left:75vw;
+  top:1vw;
+  z-index: 2;
+}
+
 .top{
   background: black;
 }
 
+
+#hvid {
+  background-color: #e2e3cf;
+  top: 18vw;
+  width: 120%;
+  height: 190vw;
+  position: absolute;
+}
+
+#hilsen {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  width: 100vw;
+  z-index: 2;
+  top:74vw;
+  left:34vw;
+}
+
+
+#alfredo {
+  position: absolute;
+  width:60vw;
+  left:20vw;
+  top:20vw;
+    z-index: 2;
+}
+
+#om {
+  background-color: white;
+  top: 84vw;
+  width: 97vw;
+  left: 5vw;
+  height: 41vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#sovs {
+  position: absolute;
+  left:3vw;
+  right:2vw;
+  font-family: var(--font);
+  font-size: 3vw;
+}
+
+#retten {
+  position: absolute;
+  left:3vw;
+  right:2vw;
+  font-family: var(--font);
+  font-size: 3vw;
+  top:11vw;
+}
+
+#cremet{
+  position: absolute;
+  left:3vw;
+  right:2vw;
+  font-family: var(--font);
+  font-size: 3vw;
+  top:22vw;
+}
+
+
+#blaa {
+  background-color: #0d2954;
+  top: 135vw;
+  width: 48%;
+  left: 5vw;
+  height: 55vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#ingrediens {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  color:white;
+  top:1vw;
+  left:16vw;
+}
+
+#Fettuccine {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:6vw;
+  left:3vw;
+}
+
+#pastavand {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:9vw;
+  left:3vw;
+}
+
+#floede {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:12vw;
+  left:3vw;
+}
+
+#parmesan {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:15vw;
+  left:3vw;
+}
+
+#hvidloeg {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:18vw;
+  left:3vw;
+}
+
+#fedt {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:21vw;
+  left:3vw;
+}
+
+#flage {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:24vw;
+  left:3vw;
+}
+
+#peber {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:27vw;
+  left:3vw;
+}
+
+#servering {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  color: white;
+  top:35vw;
+  left:16vw;
+}
+
+#frisk {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  color: white;
+  top:40vw;
+  left:3vw;
+}
+
+
+#howtodo {
+  background-color: white;
+  top: 135vw;
+  width: 48%;
+  left: 55vw;
+  height: 55vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#alfredop {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2.5vw;
+  top: 1vw;
+  left:16vw;
+}
+
+
+
+#kog {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:6vw;
+  left:3vw;
+}
+
+#husk {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:10vw;
+  left:3vw;
+}
+
+#smelt {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:14vw;
+  left:3vw;
+}
+
+#kom {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:20vw;
+  left:3vw;
+}
+
+#roer {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:26vw;
+  left:3vw;
+}
+
+#kom1 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:32vw;
+  left:3vw;
+}
+
+#anret {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:41vw;
+  left:3vw;
+}
+
+
+
+#logobund {
+  position: absolute;
+  margin-top: 25vw;
+  width: 125px;
+  top: -25vw;
+  left:2vw;
+  z-index: 2;
+}
+
+
+#facebook {
+  position: absolute;
+  width: 8vw;
+  left:80vw;
+    z-index: 2;
+    top:8vw;
+}
+
+#instagram {
+  position: absolute;
+  width: 8vw;
+  left: 90vw;
+    z-index: 2;
+    top:8vw;
+}
+
+
 .footer {
   position: absolute;
-  top: 168vw;
+  top: 210vw;
   background: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #links {
   position:absolute;
   font-family: var(--font);
   color: #decc59;
-  top: -15vw;
+  top: -2vw;
   left: 80vw;
   z-index: 5;
 
@@ -368,5 +546,5 @@ li {
   font-family: var(--font);
   color: #decc59;
   left:40vw;
-  top: -15vw;
+  top: -2vw;
 }
