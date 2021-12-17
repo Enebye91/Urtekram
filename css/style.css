@@ -218,8 +218,8 @@ display: block;
   border:none;
 }
 
-.burger {
-  burgermenu: none; 
+.burgermenu {
+  dropdown: none;
 }
 
 
@@ -513,6 +513,16 @@ h2 {
   dropdown5: none;
   dropdown6: none;
 }
+
+.burgermenu {
+position: absolute;
+color: #decc59;
+border: none;
+Display: block;
+margin-top: 0.3em;
+}
+
+
 
 img {
   max-width: 100%,
