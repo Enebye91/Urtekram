@@ -210,6 +210,20 @@ display: block;
 
 .dropdown6:hover .dropbtn5 {color: #decc59;}
 
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  display:block;
+  border:none;
+}
+
+.burger {
+  burgermenu: none; 
+}
+
+
+
 #logotop {
   width: 10vw;
   position: absolute;
@@ -302,7 +316,7 @@ font-family: var(--font);
 #mine {
   position: absolute;
   width:20vw;
-  left:72vw;
+  left:vw;
   top:0vw;
   z-index: 2;
 }
@@ -484,4 +498,40 @@ li {
 
 h2 {
     font-family: var(--font);
+}
+
+
+/*mobil*/
+
+@media only screen and (max width:480px) {
+
+.menu {
+  dropdown: none;
+  dropdown2: none;
+  dropdown3: none;
+  dropdown4: none;
+  dropdown5: none;
+  dropdown6: none;
+}
+
+img {
+  max-width: 100%,
+}
+
+
+
+
+
+
+}
+
+/*tablet*/
+@media only screen and (min-width:481px) {
+
+}
+
+
+/*pc*/
+@media only screen ans (min-width:1280px) {
+
 }
