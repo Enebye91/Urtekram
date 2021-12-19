@@ -571,63 +571,54 @@ img {
 }
 
 #logotop {
-  width: 10vw;
+  width: 2.5vw;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 20vw;
+  top: 2vw;
   z-index: 2;
 }
 
 #hvid {
   background-color: #e2e3cf;
-  top: 20vw;
-  width: 102%;
-  height: 200vw;
+  top: 5vw;
+  width: 100%;
+  height: 50vw;
   position: absolute;
 }
 
 #blaa {
   background-color: #0d2954;
-  top: 30vw;
-  width: 80%;
-  left: 5vw;
-  height: 50vw;
+  top: 5vw;
+  width: 25%;
+  left: 2vw;
+  height: 12.5vw;
   position: absolute;
   z-index: 1;
 }
 
-#bordet {
-  background-color: white;
-  top:5vw;
-  width:35%
-  left:5vw;
-  height:25vw;
-  position: absolute;
-  z-index: 5;
-}
 
 #Mockup {
-  width: 35vw;
+  width: 16vw;
   position: absolute;
-  top:38vw;
-  left: 10vw;
+  top:7vw;
+  left: 5vw;
   z-index: 2;
 }
 
 #Fettuccine {
   position: absolute;
-  width: 35vw;
-  left:46vw;
+  width: 16vw;
+  left:5vw;
   color: white;
   z-index: 2;
-  top:45vw;
+  top:22vw;
 }
 
 
 #em {
   position: absolute;
   left:1vw;
-  top:0.5vw;
+  top:22vw;
   font-family: var(--font);
   font-size: 2vw;
 }
@@ -637,19 +628,25 @@ img {
   left:1vw;
   font-family: var(--font);
   font-size: 2vw;
-  top:2.5vw;
+  top:22vw;
 }
 
 .Minbog {
-  width: 65vw;
+  width: 16vw;
   position: absolute;
   background: white;
-  left: 5vw;
-  top: 110vw;
+  left: 2vw;
+  top: 27vw;
   padding-left: 8vw;
   padding-right: 5vw;
   padding-bottom: 12vw;
 
+}
+
+#design {
+  position:absolute;
+  font-family: var(--font);
+  font-size: 1vw;
 }
 
 #Kogebog {
@@ -662,34 +659,34 @@ img {
 
 #Glutenfri {
   position: absolute;
-  width:78vw;
+  width:12vw;
   background-color: white;
   left: 5vw;
-  top: 145vw;
-  padding-bottom: 25vw;
+  top: 36vw;
+  padding-bottom: 6vw;
 }
 
 #Gluten {
   position: absolute;
-  width: 22vw;
-  left:5vw;
-  top: 1.5vw;
+  width: 5vw;
+  left:2vw;
+  top: 1vw;
 }
 
 #gk {
   position: absolute;
-  left:50vw;
+  left:12vw;
   font-family: var(--font);
-  font-size: 3vw;
+  font-size: 1vw;
 }
 
 
 #kur {
   position: absolute;
-  left:55vw;
-  top: 3vw;
+  left:14vw;
+  top: 1vw;
   font-family: var(--font);
-  font-size: 3vw;
+  font-size: 1vw;
 }
 
 
@@ -698,39 +695,39 @@ font-family: var(--font);
 }
 
 #nyt {
-  width: 20vw;
+  width: 5vw;
     z-index: 2;
 }
 
 #mine {
   position: absolute;
-  width:20vw;
-  left:75vw;
+  width:5vw;
+  left:19vw;
   top:0vw;
   z-index: 2;
 }
 
 #laks {
   position: absolute;
-  width:25vw;
-  top:180vw;
-  left:10vw;
+  width:6vw;
+  top:45vw;
+  left:2.5vw;
     z-index: 2;
 }
 
 #alfredo {
   position: absolute;
-  width:25vw;
-  left:45vw;
-  top:180vw;
+  width:6vw;
+  left:11vw;
+  top:45vw;
     z-index: 2;
 }
 
 #pastalaks {
   position: absolute;
-  width:25vw;
-  top:180vw;
-  left:75vw;
+  width:6vw;
+  top:45vw;
+  left:19vw;
     z-index: 2;
 }
 
@@ -738,8 +735,8 @@ font-family: var(--font);
   position: absolute;
   font-family: var(--font);
   color: black;
-  top: 200vw;
-  left: 10vw;
+  top: 50vw;
+  left: 2.5vw;
   z-index: 5;
 }
 
@@ -748,8 +745,8 @@ font-family: var(--font);
   position: absolute;
   font-family: var(--font);
   color: black;
-  top: 204vw;
-  left:10vw;
+  top: 51vw;
+  left:2.5vw;
 }
 
 #her:hover {
@@ -784,8 +781,8 @@ font-family: var(--font);
   position: absolute;
   font-family: var(--font);
   color: black;
-  top: 200vw;
-  left: 75vw;
+  top: 50vw;
+  left: 19vw;
   z-index: 5;
 }
 
@@ -793,8 +790,8 @@ font-family: var(--font);
   position: absolute;
   font-family: var(--font);
   color: black;
-  top: 204vw;
-  left:75vw;
+  top: 51vw;
+  left:19vw;
 }
 
 #her3:hover {
@@ -805,23 +802,23 @@ font-family: var(--font);
 
 #logobund {
   position: absolute;
-  margin-top: 25vw;
-  width: 150px;
-  top: -40vw;
+  margin-top: 6vw;
+  width: 37px;
+  top: -10vw;
   z-index: 2;
 }
 
 #facebook {
   position: absolute;
-  width: 10vw;
-  left:80vw;
+  width: 5vw;
+  left:20vw;
     z-index: 2;
 }
 
 #instagram {
   position: absolute;
-  width: 10vw;
-  left: 90vw;
+  width: 2.5vw;
+  left: 22vw;
     z-index: 2;
 }
 
@@ -829,8 +826,8 @@ font-family: var(--font);
 .livretter {
   background-color: grey;
   color:black;
-  padding:30px;
-  height:50px;
+  padding:7px;
+  height:12px;
   display:flex;
   flex-direction: column;
     z-index: 2;
@@ -839,7 +836,7 @@ font-family: var(--font);
 .livretter {
   background: white;
   margin: auto;
-  width: 100px;
+  width: 25px;
     z-index: 2;
 }
 
@@ -849,17 +846,17 @@ font-family: var(--font);
 
 .footer {
   position: absolute;
-  top: 240vw;
+  top: 15vw;
   background: black;
-  font-size: 20px;
+  font-size: 5px;
 }
 
 #links {
   position:absolute;
   font-family: var(--font);
   color: #decc59;
-  top: -15vw;
-  left: 80vw;
+  top: -4vw;
+  left: 20vw;
   z-index: 5;
 
 }
@@ -868,8 +865,8 @@ font-family: var(--font);
   position: absolute;
   font-family: var(--font);
   color: #decc59;
-  left:40vw;
-  top: -15vw;
+  left:10vw;
+  top: -3vw;
 }
 
 h2 {
