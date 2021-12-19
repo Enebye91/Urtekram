@@ -252,8 +252,8 @@ display: block;
 
 #bordet {
   background-color: white;
-  top:60vw;
-  width:80%
+  top:5vw;
+  width:35%
   left:5vw;
   height:25vw;
   position: absolute;
@@ -270,11 +270,11 @@ display: block;
 
 #Fettuccine {
   position: absolute;
-  width: 55vw;
-  left:15vw;
-  background-color: white;
+  width: 35vw;
+  left:46vw;
+  color: white;
   z-index: 2;
-  top:95vw;
+  top:45vw;
 }
 
 
@@ -569,22 +569,4 @@ margin-top: 0.3em;
 
 img {
   max-width: 100%,
-}
-
-
-
-
-
-
-}
-
-/*tablet*/
-@media only screen and (min-width:481px) {
-
-}
-
-
-/*pc*/
-@media only screen ans (min-width:1280px) {
-
 }

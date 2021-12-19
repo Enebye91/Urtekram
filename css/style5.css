@@ -227,8 +227,8 @@ li {
 #logotop {
   width: 10vw;
   position: absolute;
-  left: 2;
-  top: 1;
+  left: 2vw;
+  top: 1vw;
   z-index: 2;
 }
 
@@ -254,7 +254,7 @@ li {
 
 #mockup {
   position: absolute;
-  width:45vw;
+  width: 45vw;
   left:5vw;
   top:25vw;
   z-index: 2;
