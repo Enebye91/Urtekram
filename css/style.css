@@ -250,6 +250,16 @@ display: block;
   z-index: 1;
 }
 
+#bordet {
+  background-color: white;
+  top:60vw;
+  width:80%
+  left:5vw;
+  height:25vw;
+  position: absolute;
+  z-index: 5;
+}
+
 #Mockup {
   width: 55vw;
   position: absolute;
@@ -304,6 +314,39 @@ display: block;
 }
 
 
+#Glutenfri {
+  position: absolute;
+  width:78vw;
+  background-color: white;
+  left: 5vw;
+  top: 145vw;
+  padding-bottom: 25vw;
+}
+
+#Gluten {
+  position: absolute;
+  width: 22vw;
+  left:5vw;
+  top: 1.5vw;
+}
+
+#gk {
+  position: absolute;
+  left:50vw;
+  font-family: var(--font);
+  font-size: 3vw;
+}
+
+
+#kur {
+  position: absolute;
+  left:55vw;
+  top: 3vw;
+  font-family: var(--font);
+  font-size: 3vw;
+}
+
+
 #para {
 font-family: var(--font);
 }
@@ -316,7 +359,7 @@ font-family: var(--font);
 #mine {
   position: absolute;
   width:20vw;
-  left:vw;
+  left:75vw;
   top:0vw;
   z-index: 2;
 }

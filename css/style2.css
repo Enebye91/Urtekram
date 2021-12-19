@@ -249,6 +249,7 @@ display: block;
 .din {
   position: absolute;
   font-family: var(--font);
+  top:10vw;
 }
 
 #familiens {
