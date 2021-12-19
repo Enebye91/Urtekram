@@ -219,7 +219,7 @@ display: block;
 }
 
 .burgermenu {
-  dropdown: none;
+
 }
 
 
@@ -541,12 +541,12 @@ li {
 
 h2 {
     font-family: var(--font);
-}
+} 
 
 
 /*mobil*/
 
-@media only screen and (max width:480px)
+@media only screen and (min width:480px)
 
 
 .dropbtn {
