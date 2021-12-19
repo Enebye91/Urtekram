@@ -261,10 +261,10 @@ display: block;
 }
 
 #Mockup {
-  width: 55vw;
+  width: 35vw;
   position: absolute;
-  top:40vw;
-  left: 15vw;
+  top:38vw;
+  left: 10vw;
   z-index: 2;
 }
 
