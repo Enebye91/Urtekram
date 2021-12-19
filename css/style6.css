@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+
+  /* farver */
+  --beige: #e2e3cf;
+
+  /* fonte */
+--font: 'Ubuntu', sans-serif;
+ }
+
+.wrap {
+  background: black;
+}
+
+/*mobil*/
+
+@media only screen and (min width:480px) {
+
+
+.dropbtn {
+  dropdown:none;
+}
+
+.dropdown-content {
+  content: none;
+}
+
+
+
+.burgermenu {
+position: absolute;
+color: #decc59;
+border: none;
+Display: block;
+margin-top: 0.3em;
+left:2vw;
+width: 20vw;
+top:0.3vw;
+z-index: 2;
+}
+
+
+
+#logotop {
+  width: 12vw;
+  position: absolute;
+  left: 50vw;
+  top: 2vw;
+  z-index: 2;
+}
+
+#mine {
+  position: absolute;
+  width:30vw;
+  left:70vw;
+  top:3vw;
+  z-index: 2;
+}
+
+#hvid {
+  background-color: #e2e3cf;
+  top: 15vw;
+  width: 110%;
+  height: 350vw;
+  position: absolute;
+}
+
+#blaa {
+  background-color: #0d2954;
+  top: 20vw;
+  width: 90%;
+  left: 5vw;
+  height: 50vw;
+  position: absolute;
+  z-index: 1;
+}
+
+
+#Mockup {
+  width: 50vw;
+  position: absolute;
+  top:35vw;
+  left: 50vw;
+  z-index: 2;
+}
+
+#Fettuccine {
+  position: absolute;
+  width: 10vw;
+  left:25vw;
+  color: white;
+  z-index: 2;
+  top:50vw;
+}
+
+
+#em {
+  position: absolute;
+  left:3vw;
+  top:40vw;
+  font-family: var(--font);
+  font-size: 4vw;
+  color: black;
+  width: 50vw;
+}
+
+#overraskelse {
+  position: absolute;
+  left:3vw;
+  font-family: var(--font);
+  font-size: 4vw;
+  top:48vw;
+  color: black;
+  width: 50vw;
+}
+
+.Minbog {
+  width: 70%;
+  position: absolute;
+  background: white;
+  left: 10vw;
+  top: 120vw;
+  height: 75vw;
+  padding-left: 8vw;
+  padding-right: 5vw;
+
+}
+
+#design {
+  position:absolute;
+  font-family: var(--font);
+  font-size: 4vw;
+  left: 20vw;
+}
+
+#para {
+position: absolute;
+font-family: var(--font);
+font-size: 4vw;
+top:9vw;
+left:15vw;
+
+}
+
+.deltag {
+  position: absolute;
+  top:25vw;
+  width: 18vw;
+  font-size: 4vw;
+  left:15vw;
+
+}
+
+#Kogebog {
+  width:50vw;
+  position: absolute;
+  top: 42vw;
+  left:16vw;
+  z-index: 2;
+}
+
+
+#Glutenfri {
+  position: absolute;
+  width:12vw;
+  background-color: white;
+  left: 5vw;
+  top: 52vw;
+  padding-bottom: 6vw;
+}
+
+#Gluten {
+  position: absolute;
+  width: 5vw;
+  left:2vw;
+  top: 1vw;
+}
+
+#gk {
+  position: absolute;
+  left:12vw;
+  font-family: var(--font);
+  font-size: 1vw;
+}
+
+
+#kur {
+  position: absolute;
+  left:14vw;
+  top: 1vw;
+  font-family: var(--font);
+  font-size: 1vw;
+}
+
+
+#nyt {
+  width: 10vw;
+    z-index: 2;
+}
+
+
+#laks {
+  position: absolute;
+  width:30vw;
+  top:225vw;
+  left:5vw;
+    z-index: 2;
+}
+
+#alfredo {
+  position: absolute;
+  width:30vw;
+  left:38vw;
+  top:225vw;
+    z-index: 2;
+}
+
+#pastalaks {
+  position: absolute;
+  width:30vw;
+  top:225vw;
+  left:69vw;
+    z-index: 2;
+}
+
+#teasertekst2 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3.5vw;
+  color: black;
+  top: 248vw;
+  left: 5vw;
+  z-index: 5;
+}
+
+
+#her {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  color: black;
+  top: 252vw;
+  left:5vw;
+}
+
+#her:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+#teasertekst1 {
+    position: absolute;
+    font-family: var(--font);
+    font-size: 3vw;
+    color: black;
+    top: 250vw;
+    left: 42vw;
+    z-index: 5;
+}
+
+#her1 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  color: black;
+  top: 252vw;
+  left:42vw;
+}
+
+#her1:hover {
+  transform: scale(1.1);
+}
+
+#teasertekst3 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  color: black;
+  top: 250vw;
+  left: 69vw;
+  z-index: 5;
+}
+
+#her3 {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 3vw;
+  color: black;
+  top: 252vw;
+  left:69vw;
+}
+
+#her3:hover {
+  transform: scale(1.1);
+}
+
+
+
+#logobund {
+  width: 20vw;
+  position: absolute;
+  left: 40vw;
+  top: 238vw;
+  z-index: 2;
+}
+
+#facebook {
+  position: absolute;
+  width: 10vw;
+  left:40vw;
+    z-index: 2;
+    top:408vw;
+}
+
+#instagram {
+  position: absolute;
+  width:10 vw;
+  left: 40vw;
+    z-index: 2;
+    top:420vw;
+}
+
+
+.top{
+  background: black;
+}
+
+.footer {
+  position: absolute;
+  top: 15vw;
+  background: black;
+  font-size: 5px;
+}
+
+#links {
+  position:absolute;
+  font-family: var(--font);
+  font-size: 5vw;
+  color: #decc59;
+  top: 390vw;
+  left: 40vw;
+  z-index: 5;
+}
+
+#kontakt {
+  position: absolute;
+  font-family: var(--font);
+  font-size: 5vw;
+  color: #decc59;
+  left:40vw;
+  top: 280vw;
+}
+
+h2 {
+    font-family: var(--font);
+}
+
+}
