@@ -566,7 +566,312 @@ margin-top: 0.3em;
 }
 
 
-
 img {
   max-width: 100%,
+}
+
+#logotop {
+  width: 10vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#hvid {
+  background-color: #e2e3cf;
+  top: 20vw;
+  width: 102%;
+  height: 200vw;
+  position: absolute;
+}
+
+#blaa {
+  background-color: #0d2954;
+  top: 30vw;
+  width: 80%;
+  left: 5vw;
+  height: 50vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#bordet {
+  background-color: white;
+  top:5vw;
+  width:35%
+  left:5vw;
+  height:25vw;
+  position: absolute;
+  z-index: 5;
+}
+
+#Mockup {
+  width: 35vw;
+  position: absolute;
+  top:38vw;
+  left: 10vw;
+  z-index: 2;
+}
+
+#Fettuccine {
+  position: absolute;
+  width: 35vw;
+  left:46vw;
+  color: white;
+  z-index: 2;
+  top:45vw;
+}
+
+
+#em {
+  position: absolute;
+  left:1vw;
+  top:0.5vw;
+  font-family: var(--font);
+  font-size: 2vw;
+}
+
+#overraskelse {
+  position: absolute;
+  left:1vw;
+  font-family: var(--font);
+  font-size: 2vw;
+  top:2.5vw;
+}
+
+.Minbog {
+  width: 65vw;
+  position: absolute;
+  background: white;
+  left: 5vw;
+  top: 110vw;
+  padding-left: 8vw;
+  padding-right: 5vw;
+  padding-bottom: 12vw;
+
+}
+
+#Kogebog {
+  width:20vw;
+  position: absolute;
+  left:50vw;
+  z-index: 2;
+}
+
+
+#Glutenfri {
+  position: absolute;
+  width:78vw;
+  background-color: white;
+  left: 5vw;
+  top: 145vw;
+  padding-bottom: 25vw;
+}
+
+#Gluten {
+  position: absolute;
+  width: 22vw;
+  left:5vw;
+  top: 1.5vw;
+}
+
+#gk {
+  position: absolute;
+  left:50vw;
+  font-family: var(--font);
+  font-size: 3vw;
+}
+
+
+#kur {
+  position: absolute;
+  left:55vw;
+  top: 3vw;
+  font-family: var(--font);
+  font-size: 3vw;
+}
+
+
+#para {
+font-family: var(--font);
+}
+
+#nyt {
+  width: 20vw;
+    z-index: 2;
+}
+
+#mine {
+  position: absolute;
+  width:20vw;
+  left:75vw;
+  top:0vw;
+  z-index: 2;
+}
+
+#laks {
+  position: absolute;
+  width:25vw;
+  top:180vw;
+  left:10vw;
+    z-index: 2;
+}
+
+#alfredo {
+  position: absolute;
+  width:25vw;
+  left:45vw;
+  top:180vw;
+    z-index: 2;
+}
+
+#pastalaks {
+  position: absolute;
+  width:25vw;
+  top:180vw;
+  left:75vw;
+    z-index: 2;
+}
+
+#teasertekst2 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 200vw;
+  left: 10vw;
+  z-index: 5;
+}
+
+
+#her {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 204vw;
+  left:10vw;
+}
+
+#her:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+#teasertekst1 {
+    position: absolute;
+    font-family: var(--font);
+    color: black;
+    top: 200vw;
+    left: 45vw;
+    z-index: 5;
+}
+
+#her1 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 206vw;
+  left:45vw;
+}
+
+#her1:hover {
+  transform: scale(1.1);
+}
+
+#teasertekst3 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 200vw;
+  left: 75vw;
+  z-index: 5;
+}
+
+#her3 {
+  position: absolute;
+  font-family: var(--font);
+  color: black;
+  top: 204vw;
+  left:75vw;
+}
+
+#her3:hover {
+  transform: scale(1.1);
+}
+
+
+
+#logobund {
+  position: absolute;
+  margin-top: 25vw;
+  width: 150px;
+  top: -40vw;
+  z-index: 2;
+}
+
+#facebook {
+  position: absolute;
+  width: 10vw;
+  left:80vw;
+    z-index: 2;
+}
+
+#instagram {
+  position: absolute;
+  width: 10vw;
+  left: 90vw;
+    z-index: 2;
+}
+
+
+.livretter {
+  background-color: grey;
+  color:black;
+  padding:30px;
+  height:50px;
+  display:flex;
+  flex-direction: column;
+    z-index: 2;
+}
+
+.livretter {
+  background: white;
+  margin: auto;
+  width: 100px;
+    z-index: 2;
+}
+
+.top{
+  background: black;
+}
+
+.footer {
+  position: absolute;
+  top: 240vw;
+  background: black;
+  font-size: 20px;
+}
+
+#links {
+  position:absolute;
+  font-family: var(--font);
+  color: #decc59;
+  top: -15vw;
+  left: 80vw;
+  z-index: 5;
+
+}
+
+#kontakt {
+  position: absolute;
+  font-family: var(--font);
+  color: #decc59;
+  left:40vw;
+  top: -15vw;
+}
+
+h2 {
+    font-family: var(--font);
 }
